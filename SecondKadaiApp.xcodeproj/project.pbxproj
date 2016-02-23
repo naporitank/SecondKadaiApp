@@ -12,6 +12,7 @@
 		F22E7D211C7AA80B00FB5A14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22E7D1F1C7AA80B00FB5A14 /* Main.storyboard */; };
 		F22E7D231C7AA80B00FB5A14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22E7D221C7AA80B00FB5A14 /* Assets.xcassets */; };
 		F22E7D261C7AA80B00FB5A14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22E7D241C7AA80B00FB5A14 /* LaunchScreen.storyboard */; };
+		F22E7D2E1C7AAB7C00FB5A14 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22E7D2D1C7AAB7C00FB5A14 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F22E7D221C7AA80B00FB5A14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22E7D251C7AA80B00FB5A14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F22E7D271C7AA80B00FB5A14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F22E7D2D1C7AAB7C00FB5A14 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F22E7D1B1C7AA80B00FB5A14 /* AppDelegate.swift */,
 				F22E7D1D1C7AA80B00FB5A14 /* ViewController.swift */,
 				F22E7D1F1C7AA80B00FB5A14 /* Main.storyboard */,
+				F22E7D2D1C7AAB7C00FB5A14 /* ResultViewController.swift */,
 				F22E7D221C7AA80B00FB5A14 /* Assets.xcassets */,
 				F22E7D241C7AA80B00FB5A14 /* LaunchScreen.storyboard */,
 				F22E7D271C7AA80B00FB5A14 /* Info.plist */,
@@ -138,6 +141,7 @@
 			files = (
 				F22E7D1E1C7AA80B00FB5A14 /* ViewController.swift in Sources */,
 				F22E7D1C1C7AA80B00FB5A14 /* AppDelegate.swift in Sources */,
+				F22E7D2E1C7AAB7C00FB5A14 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +254,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kenko.hosaka.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kenkou.hosaka.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -261,7 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SecondKadaiApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kenko.hosaka.SecondKadaiApp;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kenkou.hosaka.SecondKadaiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
